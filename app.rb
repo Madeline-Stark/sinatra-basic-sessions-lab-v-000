@@ -12,8 +12,8 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    @purchase = params 
-    erb :index
+    @purchase = params
+    erb :show
   end
 
 end
