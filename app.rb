@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout' do
-    @purchase = Purchase.new(params[:item])
+    @purchase = Purchase.new(params)
     erb :show
   end
 
