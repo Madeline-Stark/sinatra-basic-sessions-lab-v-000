@@ -1,4 +1,4 @@
-class Purchases
+class Purchase
   attr_accessor :item
 
   def initialize(params)
