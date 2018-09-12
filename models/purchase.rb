@@ -1,8 +1,8 @@
 class Purchase
   attr_accessor :item
 
-  def initialize(item)
-    @item = item
+  def initialize(text)
+    @item = text[:item]
   end
 
 end
